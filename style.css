@@ -14,7 +14,7 @@
 
 .content
 {   width: 80vw;
-    height: 55vh;
+    height: auto;
     display: flex;
     flex-direction: row-reverse ; 
     background-color: hsl(244, 38%, 16%);
@@ -105,6 +105,7 @@ h6{
     opacity: 0.5;
     font-weight: 400;
     letter-spacing: 2px;
+    padding-bottom: 30px;
 }
 /* .wrap
 {   width: 100%;
@@ -115,7 +116,7 @@ h6{
      /* background-color:  hsl(277, 64%, 61%);  */
      border-radius: 0px 10px 10px 0;
      width: 40vw;
-     height: 55vh;
+     height: auto;
      background: linear-gradient(rgba(170,92,219,0.3),rgba(170,92,219,0.3)),url(./image-header-desktop.jpg)  no-repeat ;
      background-size: cover;
      opacity: 0.70;
